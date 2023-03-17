@@ -1,0 +1,91 @@
+
+
+
+
+div {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: myFirstFont;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+    /* background-color: rgb(205, 125, 125); */
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: start;
+}
+
+.text_padding {
+    margin-bottom: 0.1em;
+    margin-top: 0.0em;
+}
+
+
+.text_p {
+    color: white;
+}
+
+.text_sec {
+   color: rgb(160, 160, 160);
+}
+
+.background {
+    background-color: rgb(47, 47, 47);
+}
+
+/* Style the image inside the centered container, if needed */
+.centered .icon {
+    width: 150px;
+    /* border-radius: 50%; */
+}
+
+
+
+.container_buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    margin-top: 3em;
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    width: 220px;
+    height: 50px;
+}
+
+
+.dim {
+    opacity: 0.1;
+}
+
+
+.maxwidth {
+    width: 200px;
+    /* border-radius: 50%; */
+}
+
